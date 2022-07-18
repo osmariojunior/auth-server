@@ -1,5 +1,4 @@
 FROM ubuntu:14.04
-MAINTAINER Niels Krijger <niels@kryger.nl>
 
 # Install Node.js
 RUN apt-get update && apt-get install -y --force-yes curl
